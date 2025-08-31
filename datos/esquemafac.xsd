@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="servicios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="GestionCatastral"/>
+        <xs:element ref="GestionTerrito"/>
+        <xs:element ref="AvaluosDesenglobes"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GestionCatastral">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="facturas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="facturas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="factura" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="factura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fecha" type="xs:date"/>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="valor" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GestionTerrito">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="facturas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AvaluosDesenglobes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="facturas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
