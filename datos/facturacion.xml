@@ -1,165 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<servicios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquemafac.xsd">
-    <GestionCatastral>
-        <facturas>
-            <factura>
-                <fecha>2024-01-01</fecha>
-                <nombre>IGAC</nombre>
-                <valor>10000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-02-01</fecha>
-                <nombre>ANT</nombre>
-                <valor>15000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-03-01</fecha>
-                <nombre>UAECD</nombre>
-                <valor>8000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-04-01</fecha>
-                <nombre>Catastro Antioquia</nombre>
-                <valor>12000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-05-01</fecha>
-                <nombre>IGAC</nombre>
-                <valor>20000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-06-01</fecha>
-                <nombre>IGAC</nombre>
-                <valor>18000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-07-01</fecha>
-                <nombre>ANT</nombre>
-                <valor>15000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-08-01</fecha>
-                <nombre>Catastro Cundinamarca</nombre>
-                <valor>10000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-09-01</fecha>
-                <nombre>ANT</nombre>
-                <valor>15000000</valor>
-            </factura>
-            <factura>
-                <fecha>2024-10-01</fecha>
-                <nombre>IGAC</nombre>
-                <valor>12000000</valor>
-            </factura>
-        </facturas>
-    </GestionCatastral>
-    <GestionTerrito>
-        <facturas>
-            <factura>
-                <fecha>2023-01-01</fecha>
-                <nombre>Sohacha</nombre>
-                <valor>10000000</valor>
-            </factura>
-            <factura>
-                <fecha>2023-02-01</fecha>
-                <nombre>Cundinamarca</nombre>
-                <valor>15000000</valor>
-            </factura>
-            <factura>
-                <fecha>2023-03-01</fecha>
-                <nombre>Medellin</nombre>
-                <valor>8000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-04-2023</fecha>
-                <nombre>Pereira</nombre>
-                <valor>12000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-05-2023</fecha>
-                <nombre>Zipaquira</nombre>
-                <valor>20000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-06-2023</fecha>
-                <nombre>Barbosa</nombre>
-                <valor>18000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-07-2023</fecha>
-                <nombre>La Dorada</nombre>
-                <valor>15000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-08-2023</fecha>
-                <nombre>Puerto Salgar</nombre>
-                <valor>10000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-09-2023</fecha>
-                <nombre>Girardot</nombre>
-                <valor>15000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-10-2023</fecha>
-                <nombre>Cali</nombre>
-                <valor>12000000</valor>
-            </factura>
-        </facturas>
-    </GestionTerrito>
-    <AvaluosDesenglobes>
-        <facturas>
-            <factura>
-                <fecha>15-01-2025</fecha>
-                <nombre>Carlos</nombre>
-                <valor>5000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-02-2025</fecha>
-                <nombre>Luis</nombre>
-                <valor>8000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-03-2025</fecha>
-                <nombre>María</nombre>
-                <valor>8000000</valor>
-            </factura>
-            <factura>
-                <fecha>10-03-2025</fecha>
-                <nombre>Lina</nombre>
-                <valor>12000000</valor>
-            </factura>
-            <factura>
-                <fecha>11-04-2025</fecha>
-                <nombre>Mery</nombre>
-                <valor>9000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-05-2025</fecha>
-                <nombre>Jairo</nombre>
-                <valor>8000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-06-2025</fecha>
-                <nombre>Diana</nombre>
-                <valor>15000000</valor>
-            </factura>
-            <factura>
-                <fecha>15-06-2025</fecha>
-                <nombre>Marcela</nombre>
-                <valor>4000000</valor>
-            </factura>
-            <factura>
-                <fecha>14-07-2025</fecha>
-                <nombre>Carlos</nombre>
-                <valor>6000000</valor>
-            </factura>
-            <factura>
-                <fecha>01-08-2025</fecha>
-                <nombre>Fernanda</nombre>
-                <valor>12000000</valor>
-            </factura>
-        </facturas>
-    </AvaluosDesenglobes>
-</servicios>
+<?xml version="1.0" encoding="UTF-8"?>
+<Facturacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquemafac.xsd">
+    <Factura id="F001">
+        <Cliente>
+            <Nombre>Juan Pérez</Nombre>
+            <Documento>1012345678</Documento>
+        </Cliente>
+        <Fecha>2025-08-01</Fecha>
+        <Servicio>Levantamientos Topográficos</Servicio>
+        <Cantidad>1</Cantidad>
+        <ValorUnitario>3750000</ValorUnitario>
+        <ValorTotal>3750000</ValorTotal>
+    </Factura>
+    <Factura id="F002">
+        <Cliente>
+            <Nombre>María Rodríguez</Nombre>
+            <Documento>1098765432</Documento>
+        </Cliente>
+        <Fecha>2025-08-03</Fecha>
+        <Servicio>Sistemas de Información Geográfica (SIG)</Servicio>
+        <Cantidad>2</Cantidad>
+        <ValorUnitario>2700000</ValorUnitario>
+        <ValorTotal>5400000</ValorTotal>
+    </Factura>
+    <Factura id="F003">
+        <Cliente>
+            <Nombre>Carlos Gómez</Nombre>
+            <Documento>1122334455</Documento>
+        </Cliente>
+        <Fecha>2025-08-04</Fecha>
+        <Servicio>Catastro y Ordenamiento Territorial</Servicio>
+        <Cantidad>1</Cantidad>
+        <ValorUnitario>4500000</ValorUnitario>
+        <ValorTotal>4500000</ValorTotal>
+    </Factura>
+    <Factura id="F004">
+        <Cliente>
+            <Nombre>Ana Torres</Nombre>
+            <Documento>1029384756</Documento>
+        </Cliente>
+        <Fecha>2025-08-05</Fecha>
+        <Servicio>Teledetección y Fotogrametría</Servicio>
+        <Cantidad>3</Cantidad>
+        <ValorUnitario>2250000</ValorUnitario>
+        <ValorTotal>6750000</ValorTotal>
+    </Factura>
+    <Factura id="F005">
+        <Cliente>
+            <Nombre>Pedro Ramírez</Nombre>
+            <Documento>2233445566</Documento>
+        </Cliente>
+        <Fecha>2025-08-06</Fecha>
+        <Servicio>Consultoría y Capacitación</Servicio>
+        <Cantidad>5</Cantidad>
+        <ValorUnitario>1200000</ValorUnitario>
+        <ValorTotal>6000000</ValorTotal>
+    </Factura>
+    <Factura id="F006">
+        <Cliente>
+            <Nombre>Laura Sánchez</Nombre>
+            <Documento>3344556677</Documento>
+        </Cliente>
+        <Fecha>2025-08-07</Fecha>
+        <Servicio>Georreferenciación de Predios</Servicio>
+        <Cantidad>2</Cantidad>
+        <ValorUnitario>3300000</ValorUnitario>
+        <ValorTotal>6600000</ValorTotal>
+    </Factura>
+    <Factura id="F007">
+        <Cliente>
+            <Nombre>Andrés Castaño</Nombre>
+            <Documento>4455667788</Documento>
+        </Cliente>
+        <Fecha>2025-08-08</Fecha>
+        <Servicio>Sistemas de Información Geográfica (SIG)</Servicio>
+        <Cantidad>1</Cantidad>
+        <ValorUnitario>2700000</ValorUnitario>
+        <ValorTotal>2700000</ValorTotal>
+    </Factura>
+    <Factura id="F008">
+        <Cliente>
+            <Nombre>Sofía Martínez</Nombre>
+            <Documento>5566778899</Documento>
+        </Cliente>
+        <Fecha>2025-08-09</Fecha>
+        <Servicio>Levantamientos Topográficos</Servicio>
+        <Cantidad>2</Cantidad>
+        <ValorUnitario>3750000</ValorUnitario>
+        <ValorTotal>7500000</ValorTotal>
+    </Factura>
+    <Factura id="F009">
+        <Cliente>
+            <Nombre>Diego López</Nombre>
+            <Documento>6677889900</Documento>
+        </Cliente>
+        <Fecha>2025-08-10</Fecha>
+        <Servicio>Teledetección y Fotogrametría</Servicio>
+        <Cantidad>1</Cantidad>
+        <ValorUnitario>2250000</ValorUnitario>
+        <ValorTotal>2250000</ValorTotal>
+    </Factura>
+    <Factura id="F010">
+        <Cliente>
+            <Nombre>Camila Herrera</Nombre>
+            <Documento>7788990011</Documento>
+        </Cliente>
+        <Fecha>2025-08-11</Fecha>
+        <Servicio>Consultoría y Capacitación</Servicio>
+        <Cantidad>4</Cantidad>
+        <ValorUnitario>1200000</ValorUnitario>
+        <ValorTotal>4800000</ValorTotal>
+    </Factura>
+</Facturacion>

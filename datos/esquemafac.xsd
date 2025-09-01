@@ -1,48 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-  <xs:element name="servicios">
+  <xs:element name="Facturacion">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="GestionCatastral"/>
-        <xs:element ref="GestionTerrito"/>
-        <xs:element ref="AvaluosDesenglobes"/>
+        <xs:element ref="Factura" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="GestionCatastral">
+  <xs:element name="Factura">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="facturas"/>
+        <xs:element ref="Cliente"/>
+        <xs:element name="Fecha" type="xs:date"/>
+        <xs:element name="Servicio" type="xs:string"/>
+        <xs:element name="Cantidad" type="xs:integer"/>
+        <xs:element name="ValorUnitario" type="xs:integer"/>
+        <xs:element name="ValorTotal" type="xs:integer"/>
       </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="facturas">
+  <xs:element name="Cliente">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="factura" maxOccurs="unbounded"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="factura">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="fecha" type="xs:date"/>
-        <xs:element name="nombre" type="xs:string"/>
-        <xs:element name="valor" type="xs:integer"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="GestionTerrito">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="facturas"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="AvaluosDesenglobes">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="facturas"/>
+        <xs:element name="Nombre" type="xs:string"/>
+        <xs:element name="Documento" type="xs:string"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>

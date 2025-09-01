@@ -25,7 +25,7 @@
 .prof {
     font-size: 20px;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -58,19 +58,28 @@ nav ul {
   clear: both;
 }
 
+iframe {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
 /* Style the footer */
 footer {
   background-color: #777;
   padding: 5px;
   text-align: center;
   color: white;
-  height: 8vh;
+  height: 12vh;
 }
-
-iframe {
-    height: 100%;
-    width: 100%;
-    padding: 0px;
+#contacto {
+    margin-top: 5px;
+}
+#titulocontacto {
+    margin: 5px;
+}
+#lineacontacto {
+    margin: 2px;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -83,7 +92,7 @@ iframe {
 
 /*Hoja de Vida*/
 #bodyhv {
-font-family:verdana, sans-serif;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 margin:40px;
 background-color:#eee9e9;
 }
@@ -144,4 +153,99 @@ tr:hover {background-color: #D6EEEE;}
 
 #perfilprofesional, #educacion, #experiencia {
   margin-bottom: 30px;
+}
+
+/*Servicios*/
+.bodyservicios {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eee9e9;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section h2 {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.grillaservicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.servicio {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+
+.servicio:hover {
+    transform: translateY(-5px);
+}
+
+/*Imagenes con areas*/
+.bodyareas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eee9e9;
+    margin: 0;
+    padding: 0;
+}
+
+#mainareas {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#tituloareas {
+    text-align: center;
+    padding: 10px;
+}
+
+#gillaareas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.imagenareas {
+    text-align: center;
+    padding: 10px;
+}
+.imagenareas img {
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+
+.descripcionareas {
+    background: #f9f9f9;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+
+.descripcionareas h3 {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
