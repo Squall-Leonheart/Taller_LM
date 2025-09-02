@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="300,15 400,100 350,330 250,380 70,230 30,150 100,100 120,100" fill="#9ad29c" stroke="#256f3c" stroke-width="3"/>
+    <ellipse cx="160" cy="180" rx="50" ry="30" fill="green" stroke="black" stroke-width="2" opacity="0.4" transform="rotate(-20)"/>
+    <ellipse cx="160" cy="310" rx="90" ry="100" fill="green" stroke="black" stroke-width="2" opacity="0.4" transform="rotate(-20)"/>
+    <line x1="408" y1="80" x2="350" y2="350" stroke="#e43140ff" stroke-width="5"/>
+    <text x="410" y="220" font-family="Verdana" font-size="16" fill="red" transform="rotate(-75 420,250)">AK 30</text>
+    <line x1="355" y1="331" x2="250" y2="383" stroke="#e43140ff" stroke-width="5"/>
+    <text x="270" y="390" font-family="Verdana" font-size="16" fill="red" transform="rotate(-25 260,360)">KR 33A</text>
+    <line x1="250" y1="383" x2="65" y2="230" stroke="#e43140ff" stroke-width="5"/>
+    <text x="90" y="240" font-family="Verdana" font-size="16" fill="red" transform="rotate(-25 80,210)">CL 26</text>
+</svg>
