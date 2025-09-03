@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <Placemark>
+      <name>Plaza Francisco de Paula Santander</name>
+      <description>
+        Cultural
+      </description>
+      <Point>
+        <coordinates>-74.082739,4.635467,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estadio Alfonso López Pumarejo</name>
+      <description>
+        Deportivo
+      </description>
+      <Point>
+        <coordinates>-74.086450,4.640319,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Observatorio Astronómico</name>
+      <description>
+        Científico
+      </description>
+      <Point>
+        <coordinates>-74.083308,4.639685,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Biblioteca Universitaria "Gabriel García Márquez"</name>
+      <description>
+        Académico
+      </description>
+      <Point>
+        <coordinates>-74.08323,4.635315,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Museo de Arte</name>
+      <description>
+        Cultural
+      </description>
+      <Point>
+        <coordinates>-74.080895,4.634477,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Capilla</name>
+      <description>
+        Religioso
+      </description>
+      <Point>
+        <coordinates>-74.081458,4.632927,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</kml>

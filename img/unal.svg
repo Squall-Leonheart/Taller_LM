@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
     <polygon points="300,15 400,100 350,330 250,380 70,230 30,150 100,100 120,100" fill="#9ad29c" stroke="#256f3c" stroke-width="3"/>
     <ellipse cx="160" cy="180" rx="50" ry="30" fill="green" stroke="black" stroke-width="2" opacity="0.4" transform="rotate(-20)"/>
     <ellipse cx="160" cy="310" rx="90" ry="100" fill="green" stroke="black" stroke-width="2" opacity="0.4" transform="rotate(-20)"/>
     <line x1="408" y1="80" x2="350" y2="350" stroke="#e43140ff" stroke-width="5"/>
-    <text x="410" y="220" font-family="Verdana" font-size="16" fill="red" transform="rotate(-75 420,250)">AK 30</text>
+    <text x="350" y="220" font-family="Verdana" font-size="16" fill="red" transform="rotate(-78 420,250)">AVENIDA NQS (AK 30)</text>
     <line x1="355" y1="331" x2="250" y2="383" stroke="#e43140ff" stroke-width="5"/>
     <text x="270" y="390" font-family="Verdana" font-size="16" fill="red" transform="rotate(-25 260,360)">KR 33A</text>
-    <line x1="250" y1="383" x2="65" y2="230" stroke="#e43140ff" stroke-width="5"/>
-    <text x="90" y="240" font-family="Verdana" font-size="16" fill="red" transform="rotate(-25 80,210)">CL 26</text>
+    <line x1="264" y1="395" x2="68" y2="233" stroke="#e43140ff" stroke-width="5"/>
+    <line x1="69" y1="234" x2="17" y2="130" stroke="#e43140ff" stroke-width="5"/>
+    <text x="60" y="240" font-family="Verdana" font-size="16" fill="red" transform="rotate(40 60,210)">AVENIDA EL DORADO (AC 26)</text>
+    <line x1="25" y1="149" x2="99" y2="96" stroke="#e43140ff" stroke-width="5"/>
+    <line x1="98" y1="96" x2="122" y2="96" stroke="#e43140ff" stroke-width="5"/>
+    <line x1="120" y1="96" x2="300" y2="11" stroke="#e43140ff" stroke-width="5"/>
+    <text x="130" y="120" font-family="Verdana" font-size="16" fill="red" transform="rotate(-25 45,70)">KR 45</text>
+    <line x1="295" y1="5" x2="403" y2="97" stroke="#e43140ff" stroke-width="5"/>
+    <text x="330" y="110" font-family="Verdana" font-size="16" fill="red" transform="rotate(40 440,80)">CL 53</text>
+    <circle cx="240" cy="205" r="10" fill="#e63946" stroke="white" stroke-width="2"/>
+    <text x="130" y="190" font-family="Verdana" font-size="15" font-weight="100" fill="#000000ff" stroke="white" stroke-width="0.05">UNIVERSIDAD NACIONAL</text>
 </svg>
