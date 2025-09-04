@@ -5,17 +5,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+        <script src="../js/ubicate.js"></script>
     </head>
     <body class="bodyareas">
         <main id="mainareas">
             <header id="tituloareas">
                 <h2>Nevado del Ruiz</h2>
+                <p></p>
+                <button onclick="getLocation()">Ubicate</button>
             </header>
                 
             <div id="gillaareas">
                 <div class="imagenunal">
 
-                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=4.892969263851575,-75.31880056914044&zoom=10&size=600x600&key=AIzaSyA65riSCrLQVKPwKZ3FdoaW_AKj6QYcIs0&markers=color:red|label:N|4.891181737721327,-75.32175988406726&maptype=satellite" alt="Nevado del Ruiz" usemap="#NevadoDelRuiz">
+                    <img id="map" src="https://maps.googleapis.com/maps/api/staticmap?center=4.892969263851575,-75.31880056914044&zoom=10&size=600x600&key=AIzaSyA65riSCrLQVKPwKZ3FdoaW_AKj6QYcIs0&markers=color:red%7Clabel:N%7C4.891181737721327,-75.32175988406726&maptype=satellite" alt="Nevado del Ruiz">
                     
                 </div>
                 <div class="descripcionareas">
